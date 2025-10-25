@@ -77,8 +77,7 @@ ________________________________________________________________________________
 
 1.Clone the repo
 
-git clone https://github.com/abiinayasekar/NM-PROJECT1.git
-
+git clone https://github.com/abinesha-art/NM-PROJECT-1.git
 cd Blogging-Platform
 
 2.Install dependencies
