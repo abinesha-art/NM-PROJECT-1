@@ -1,45 +1,46 @@
 📝 Blogging Platform
 
 A simple Blogging Platform built using Node.js, Express.js, and MongoDB, with optional frontend support using React or HTML-CSS. This platform allows users to create, edit, and publish blog posts, while admins can manage users and moderate content.
+______________________________________________________________________________________________________________________________________________
 
 🚀 Features
 
-Admin
+>Admin
 
-Manage users (add, edit, delete, block)
+* Manage users (add, edit, delete, block)
 
-Approve or delete posts
+* Approve or delete posts
 
-Moderate comments
+* Moderate comments
 
-User
+>User
 
-Register and log in
+* Register and log in
 
-Create, edit, and delete blog posts
+* Create, edit, and delete blog posts
 
-Comment on other posts
+* Comment on other posts
 
-Like and share posts
+* Like and share posts
 
-System
+>System
 
-Real-time updates for posts and comments
+* Real-time updates for posts and comments
 
-Optional email notifications for new followers or comments
-
+* Optional email notifications for new followers or comments
+______________________________________________________________________________________________________________________________________________
 🛠️ Tech Stack
 
-Backend: Node.js, Express.js
+* Backend: Node.js, Express.js
 
-Database: MongoDB
+* Database: MongoDB
 
-Frontend (optional): React / HTML, CSS, Bootstrap or Tailwind CSS
+* Frontend (optional): React / HTML, CSS, Bootstrap or Tailwind CSS
 
-Other Tools: Nodemailer (email notifications), JWT (authentication), Postman (API testing)
-
+* Other Tools: Nodemailer (email notifications), JWT (authentication), Postman (API testing)
+_______________________________________________________________________________________________________________________________________________
 ⚡ API Endpoints
-
+______________________________________________________________________________________________________________________________________________
 🔐 Auth APIs
 
 POST /api/auth/register → Register a new user
@@ -71,7 +72,7 @@ GET /api/users/:id → Get user profile
 PUT /api/users/:id → Update user profile
 
 DELETE /api/users/:id → Delete user
-
+_______________________________________________________________________________________________________________________________________________
 🛠️ Installation & Setup
 
 1.Clone the repo
@@ -89,11 +90,11 @@ cd backend npm install
 Create a .env file inside backend/ with the following:
 
 PORT=5000 MONGO_URI=your_mongodb_connection_string JWT_SECRET=your_secret_key EMAIL_USER=your_email@example.com # (for email notifications) EMAIL_PASS=your_password
-
+______________________________________________________________________________________________________________________________________________
 4.Run the server
 
 npm start
-
+_____________________________________________________________________________________________________________________________________________
 ✅ Testing
 
 Use Postman or Thunder Client to test the API endpoints.
